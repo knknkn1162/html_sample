@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+  <head><meta charset=utf-8>
+    <title></title>
+  </head>
+<body>
+  <!-- method(default=GET)を省略してもフォームの送信は行われるので、 event.preventDefault(); でなしにする -->
+  <form id="js-form">
+    <label for="js-form-input">text: </label>
+    <!-- name属性が指定されていないと、そのコントロールの値は送信されません。-->
+    <input type="text" name="k" id="js-form-input">
+    <!-- Enter でも送信されるが、ボタンを配置する-->
+    <button>検索</button>
+  </form>
+  <!-- 参照するform要素の後におく-->
+  <script src="script.js"></script>
+</body>
+</html>
