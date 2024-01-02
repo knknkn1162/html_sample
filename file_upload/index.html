@@ -1,0 +1,18 @@
+
+<!doctype html>
+<html>
+  <head><meta charset=utf-8>
+    <title>Sample</title>
+  </head>
+<body>
+  <!-- ファイルアップロードを行うフォームでは、form要素のenctype属性値を"multipart/form-data"にします。 -->
+  <form id="js-form" enctype="multipart/form-data" method="post">
+    <label for="js-form-file">アップロードするファイルを選択してください:    
+      <input type="file" multiple name="file" id="js-form-file">
+    </label>
+    <!-- この値は <button>、<input type="submit">、<input type="image"> の formaction 属性によって上書きすることが可能です。-->
+    <button>送信</button>
+  </form>
+  <script src="script.js"></script></head>
+</body>
+</html>
