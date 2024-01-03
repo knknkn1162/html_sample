@@ -1,7 +1,7 @@
 const formElement = document.querySelector("#js-form");
 const inputElement = document.querySelector("#js-form-input");
 const templateElement = document.querySelector("#js-template");
-const ulElement = document.querySelector("#js-ul")
+const ulElement = document.querySelector("#js-ul");
 formElement.addEventListener("submit", (event) => {
   event.preventDefault();
   const value = inputElement.value;
@@ -15,7 +15,7 @@ formElement.addEventListener("submit", (event) => {
   const labelElement = clone.querySelector("label");
   const buttonElement = clone.querySelector("button");
   const checkboxElement = clone.querySelector("input[type=checkbox]")
-  labelElement.innerHTML = value;
+  labelElement.innerText = value;
   ulElement.appendChild(clone);
   buttonElement.addEventListener("click", (event) => {
     clone.remove();
