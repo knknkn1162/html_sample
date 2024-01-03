@@ -1,0 +1,1 @@
++ https://ja.javascript.info/default-browser-action 参照
