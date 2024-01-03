@@ -14,8 +14,8 @@ npm start
 ```
 
 # ref 
-+ useState: 関数コンポーネントでstateを管理（stateの保持と更新）するためのReactフック
-+ useEffect: 関数の実行タイミングをReactのレンダリング後まで遅らせるhook
++ 🌟 useState: 関数コンポーネントでstateを管理（stateの保持と更新）するためのReactフック
++ 🌟 useEffect: 関数の実行タイミングをReactのレンダリング後まで遅らせるhook
 + useContext: propsバケツリレーをしなくても下の階層で Contextに収容されているデータにアクセスできる
 + useReducer: (state, action) => newState という型のreducer を受け取り、現在のstateとdispatch関数の両方を返します。
 + useCallback: パフォーマンス向上のためのフックで、メモ化したコールバック関数を返します。
